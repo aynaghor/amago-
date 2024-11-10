@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notice Page</title>
+    <link rel="shortcut icon" href="apple-touch-icon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e85e5e;
+            margin: 0;
+            padding: 20px;
+            font-family: "Poppins", serif;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 20px;
+            font-family: "Poppins", serif;
+        }
+
+        .notice-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .notice-box {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+            padding: 25px;
+            transition: transform 0.3s, box-shadow 0.3s;
+            opacity: 0; /* Start invisible */
+            animation: fadeIn 0.5s forwards; /* Apply fade-in animation */
+        }
+
+        .notice-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .notice-title {
+            font-size: 20px;
+            color: #0056b3;
+            margin-bottom: 12px;
+            font-weight: bold;
+        }
+
+        .notice-description {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        /* Keyframes for fade-in animation */
+        @keyframes fadeIn {
+            to {
+                opacity: 1; /* End fully visible */
+            }
+        }
+
+        /* Delay each notice box's animation */
+        .notice-box:nth-child(1) { animation-delay: 0s; }
+        .notice-box:nth-child(2) { animation-delay: 0.1s; }
+        .notice-box:nth-child(3) { animation-delay: 0.2s; }
+        .notice-box:nth-child(4) { animation-delay: 0.3s; }
+        .notice-box:nth-child(5) { animation-delay: 0.4s; }
+        .notice-box:nth-child(6) { animation-delay: 0.5s; }
+        .notice-box:nth-child(7) { animation-delay: 0.6s; }
+        .notice-box:nth-child(8) { animation-delay: 0.7s; }
+        .notice-box:nth-child(9) { animation-delay: 0.8s; }
+        .notice-box:nth-child(10) { animation-delay: 0.9s; }
+        .notice-box:nth-child(11) { animation-delay: 1s; }
+        .notice-box:nth-child(12) { animation-delay: 1.1s; }
+    </style>
+</head>
+<body>
+
+    <!-- <h1>Important Notices</h1> -->
+    
+    <!-- <div class="notice-container">
+        <div class="notice-box">
+            <h2 class="notice-title">Notice 1</h2>
+            <p class="notice-description">This is a description for notice 1. It contains important information.</p>
+        </div>
+        <div class="notice-box">
+            <h2 class="notice-title">Notice 2</h2>
+            <p class="notice-description">This is a description for notice 1. It contains important information.</p>
+        </div>
+        <div class="notice-box">
+            <h2 class="notice-title">Notice 3</h2>
+            <p class="notice-description">This is a description for notice 1. It contains important information.</p>
+        </div>
+        <div class="notice-box">
+            <h2 class="notice-title">Notice 4</h2>
+            <p class="notice-description">This is a description for notice 1. It contains important information.</p>
+        </div>
+        <div class="notice-box">
+            <h2 class="notice-title">Notice 5</h2>
+            <p class="notice-description">This is a description for notice 1. It contains important information.</p>
+        </div>
+        <div class="notice-box">
+            <h2 class="notice-title">Notice 6</h2>
+            <p class="notice-description">This is a description for notice 1. It contains important information.</p>
+        </div>
+        <div class="notice-box">
+            <h2 class="notice-title">Notice 7</h2>
+            <p class="notice-description">This is a description for notice 1. It contains important information.</p>
+        </div>
+        <div class="notice-box">
+            <h2 class="notice-title">Notice 8</h2>
+            <p class="notice-description">This is a description for notice 1. It contains important information.</p>
+        </div>
+        <div class="notice-box">
+            <h2 class="notice-title">Notice 9</h2>
+            <p class="notice-description">This is a description for notice 1. It contains important information.</p>
+        </div>
+        <div class="notice-box">
+            <h2 class="notice-title">Notice 10</h2>
+            <p class="notice-description">This is a description for notice 1. It contains important information.</p>
+        </div> -->
+        <p style="font-size: 100px; text-align: center; font-weight: bold; margin-top: 300px; opacity: 0.4;">Coming Soon!</p>
